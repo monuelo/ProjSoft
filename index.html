@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora IMC</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+  <h1>Calculadora IMC</h1>
+
+  <main>
+    <p>Altura</p>
+    <p id="imc"></p>
+    <input onkeyup="calcule_imc()" type="text">
+
+    <p>Peso</p>
+    <p id="classificacao"></p>
+    <input onkeyup="calcule_imc()" type="text">
+
+  </main>
+
+  <script src="app.js"></script>
+  <script src="imclib.js"></script>
+
+</body>
+
+</html>

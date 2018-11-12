@@ -1,9 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
-  
-  html {
+html {
     background: gray;
   }
   
@@ -30,4 +25,3 @@
     background: #eef;
     font-size: 24px;
   }
-  
