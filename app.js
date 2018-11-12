@@ -10,7 +10,7 @@ function calcule_imc() {
     let imc = imclib.valor_imc(peso, altura).toFixed(1);
     
     if (imc > 0) {
-        widget_imc.innerText = imc;
+        widget_imc.innerText = "IMC = " + imc;
         widget_classificacao.innerText = imclib.classificacao_imc(imc)
     } else {
         widget_classificacao.innerText = "";
