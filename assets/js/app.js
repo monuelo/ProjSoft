@@ -11,7 +11,7 @@ function calcule_imc() {
     
     if (imc > 0) {
         widget_imc.innerText = "IMC = " + imc;
-        widget_classificacao.innerText = imclib.classificacao_imc(imc)
+        widget_classificacao.innerText = imclib.class_imc(imc)
     } else {
         widget_classificacao.innerText = "";
         widget_imc.innerText = "";

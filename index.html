@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculadora IMC</title>
-  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="assets/css/estilo.css">
 </head>
 
 <body>
@@ -12,18 +12,17 @@
 
   <main>
     <p>Altura</p>
-    <p id="imc"></p>
     <input onkeyup="calcule_imc()" type="text">
+    <p class="result" id="imc"></p>
 
     <p>Peso</p>
-    <p id="classificacao"></p>
     <input onkeyup="calcule_imc()" type="text">
+    <p class="result" id="classificacao"></p>
 
   </main>
 
-  <script src="app.js"></script>
-  <script src="imclib.js"></script>
-
+  <script src="assets/js/imc.js"></script>  
+  <script src="assets/js/app.js"></script>
 </body>
 
 </html>

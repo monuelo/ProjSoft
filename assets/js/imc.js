@@ -1,8 +1,7 @@
-var imclib = {
-
-    valor_imc: function valor_imc(peso, altura) {
+var imclib = (function(){
+    function valor_imc(peso, altura) {
         return peso / altura ** 2;
-    },
+    }
 
     classificacao_imc: function classificacao_imc(imc) {
         if (imc < 18.5) {
@@ -21,4 +20,9 @@ var imclib = {
             return "Aguardando valores de entrada..."
         }
     }
-};
+
+    return {
+        valor_imc: valor_imc,
+        class_imc: classificacao_imc
+    }
+})();
