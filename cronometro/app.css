@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.cron {
+    padding: 10px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 100px;
+    border-radius: 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+}
+
+.buttons > button {
+    padding: 15px 20px;
+    background-color: darkcyan;
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+    color: white;
+    font-size: 22px;
+    transition: .2s;
+}
+
+.buttons > button:hover {
+    transform: scale(1.1);
+}
+
+.buttons > button:active {
+    outline: none;
+}
+
+ccc-cron {
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightgray;
+}

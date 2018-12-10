@@ -1,0 +1,2 @@
+import { Cronometro } from "Cronometro";
+
